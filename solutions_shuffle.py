@@ -2,8 +2,11 @@ import random
 
 
 def generate_array(a, b):
-    #TODO
+    arr = []
+    for i in range(a, b):
+        arr.append(i)
+    return arr
 
 
 def shuffle_array(arr):
-    # TODO
+    return random.shuffle(arr)
